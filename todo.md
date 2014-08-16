@@ -1,15 +1,31 @@
-• What is a web stack?
+### INTRODUCTION
+------------------------------------------
 
-• What's the difference between web development and web design?
+- GDI
+- Instructor, My Background
+- Lot to talk about, don't be afraid, ask questions
 
-• Where are web site files generally stored? 
+### THE BASICS
+------------------------------------------
 
-• What is the difference between a client and a server? Which programming languages are compiled on a server and which are compiled in a web browser? 
+- How does a web page work?
+- The client and the server, going deeper into the web stack
 
-• What do you need to know before building a web site? What language should you use and what are the differences? 
+### A TECH TEAM
+------------------------------------------
 
-• What tools do you need to develop a web site? 
+- Product Managers, UX/UI and Visual Designers, Developers, DevOps, and QA.
+- What you need to hire
 
-• Who does what on a typical web development team? 
+### BUILDING A SITE
+------------------------------------------
 
-• What is Web 2.0 and the Cloud?
+- How we interact with the web stack, workflow
+- How to get started and what tools you will need
+
+### OTHER TERMS AND TECHNOLOGIES
+------------------------------------------
+
+- Cloud 2.0
+- Open Source
+- Version Control
