@@ -34,7 +34,8 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
+            <!-- Introduction -->
+            <!-- ======================================================= -->
 			<div class="slides">
 				<section>
 					<h3>Introduction to Web Concepts</h3>
@@ -52,6 +53,7 @@
                             <li>Every question is important</li>
                             <li>Help each other</li>
                             <li>Have fun</li>
+                            <li>NOW TELL US ABOUT YOURSELF!</li>
                         </ul>
                     </div>
                 </section>
@@ -71,41 +73,70 @@
                 <section>
                     <h2>What we'll cover</h2>
                     <ul>
-                        <li>Terms &amp; technologies
-                            <ul>
-                                <li>Acronyms, the world wide web, languages/libraries/frameworks</li>
-                            </ul>
+                        <li>How does a web page work?
                         </li>
-                        <li class="fragment">Building a web site
-                            <ul>
-                                <li>Considerations, UX &amp; IA, tools</li>
-                            </ul>
+                        <li>What goes into building a web site/application?
                         </li>
-                        <li class="fragment">Web development professionals
-                            <ul>
-                                <li>Team structure, hiring one, becoming one</li>
-                            </ul>
+                        <li>What do I need to know to get started?
+                        </li>
+                         <li>How does this translate into a profession on a tech team?
                         </li>
                     </ul>
+                </section>
+
+                <!-- Terms and Technologies -->
+                <!-- ======================================================= -->
+
+                <section>
+                    <h2>How does a web page work?</h2>
+                </section>
+
+                <section>
+                    <h3>Home and daily life of a web site</h3>
+                    <p class="left-align">Guess what...a website is just a set of files! A typical web site will live or is "hosted" on a web server. Web servers are often large computers connected to a network. </p>
+                    <ul>
+                        <li class="fragment">Type a web site address into the address bar</li>
+                        <li class="fragment">DNS connects you to the hosting server</li>
+                        <li class="fragment">The files are then sent back to your computer for display</li>
+                        <li class="fragment">Sometimes code must be compiled before being sent back to you.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Token Diagram</h3>
+                    <img src="http://s.hswstatic.com/gif/dns-rev-1.gif" alt="How the Web Works"/>
+                </section>
+
+                <section>
+                    <h3>Clients vs. Servers</h3>
+                    <div class="left-align">
+                        <p class="fragment">Clients make requests, servers fulfill them (usually).</p>
+                        <p class="fragment">For our web discussions, client = browser, but search engine crawlers, command line interfaces, and other applications can also behave as clients.</p>
+                        <p class="fragment">While any type of computer can be used as a server, they are generally larger and more powerful than others.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Browsers</h3>
+                    <img class="fragment" src="images/StatCounter-browser-ww-monthly-200807-201212.jpg" alt="" />
+                    <p><small>Source: <a target="_blank" href="http://gs.statcounter.com/#browser-US-monthly-200807-201212">StatCounter Global Stats - Browser Market Share</a></small></p>
                     <aside class="notes">
                         <ul>
-                            <li>Acronyms, how the internet works, client vs server, languages/libraries/frameworks</li>
-                            <li>Considerations, UX/IA, downsides of WYSIWYG, demo, differences in languages, tools</li>
-                            <li>Hiring, becoming one, team structure</li>
+                            <li>Click through to show the difference between global browser shares and US.</li>
                         </ul>
                     </aside>
                 </section>
 
                 <section>
-                    <h2>What to expect</h2>
-                    <ul>
-                        <li>This is a survey of a very broad topic</li>
-                        <li class="fragment">Get a sense of what you'd like to know more about</li>
-                        <li class="fragment">I don't know everything, and neither will you</li>
-                        <li class="fragment">Have fun! (and ask questions)</li>
-                    </ul>
+                    <h3>So...How does a web page work?</h3>
+                    <li>It's just a set of files stored on a really big computer called a server.</li>
+                    <li>When you type in a URL or a domain name, it uses the DNS to figure out the IP address to find the server</li>
+                    <li>Whatever you type or do no the webpage makes a request to the server and the server sends a response with the files and html your browser needs to build a webpage</li>
+                    <li><a href="https://www.youtube.com/watch?v=D8c4JZW73cM">Explained by BlueHost</a></li>
                 </section>
 
+                <!-- Terms and Technologies -->
+                <!-- ======================================================= -->
                 <section>
                     <h2>Terms &amp; Technologies</h2>
                 </section>
@@ -168,12 +199,12 @@
                     </section>
                 </section>
 
-                <section>
+<!--                 <section>
                     <h2>What is the world wide web?</h2>
                     <img class="fragment" src="images/client-server.png" alt="" />
-                </section>
+                </section> -->
 
-                <section>
+<!--                 <section>
                     <h3>Home and daily life of a web site</h3>
                     <p class="left-align">A typical web site will live or is "hosted" on a web server. Web servers are often large computers connected to a network.</p>
                     <ul>
@@ -182,18 +213,18 @@
                         <li class="fragment">The files are then sent back to your computer for display</li>
                         <li class="fragment">Sometimes code must be compiled before being sent back to you.</li>
                     </ul>
-                </section>
+                </section> -->
 
-                <section>
+<!--                 <section>
                     <h3>Clients vs. Servers</h3>
                     <div class="left-align">
                         <p class="fragment">Clients make requests, servers fulfill them (usually).</p>
                         <p class="fragment">For our web discussions, client = browser, but search engine crawlers, command line interfaces, and other applications can also behave as clients.</p>
                         <p class="fragment">While any type of computer can be used as a server, they are generally larger and more powerful than others.</p>
                     </div>
-                </section>
+                </section> -->
 
-                <section>
+<!--                 <section>
                     <h3>Browsers</h3>
                     <img class="fragment" src="images/StatCounter-browser-ww-monthly-200807-201212.jpg" alt="" />
                     <p><small>Source: <a target="_blank" href="http://gs.statcounter.com/#browser-US-monthly-200807-201212">StatCounter Global Stats - Browser Market Share</a></small></p>
@@ -202,7 +233,7 @@
                             <li>Click through to show the difference between global browser shares and US.</li>
                         </ul>
                     </aside>
-                </section>
+                </section> -->
 
                 <section>
                     <section>
